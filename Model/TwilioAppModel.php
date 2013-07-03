@@ -2,6 +2,6 @@
 
 App::uses('AppModel', 'Model');
 
-class TwiliosmsAppModel extends AppModel {
+class TwilioAppModel extends AppModel {
 
 }
