@@ -1,5 +1,7 @@
 language: php
 php:
-  - 5.5
-  - 5.4
-  - hhvm
+  - 5.3
+
+before_script:
+    - php /home/travis/.phpenv/versions/5.5/bin/composer self-update
+    - /home/travis/.phpenv/versions/5.5/bin/composer install
