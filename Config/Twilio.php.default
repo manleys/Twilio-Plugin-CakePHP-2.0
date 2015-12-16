@@ -2,6 +2,7 @@
 $config = array(
   	'Twilio' => array(
   		'AccountSid' => 'YOUR_APP_ID',
-  		'$AuthToken' => 'YOUR_API_KEY',
+  		'AuthToken' => 'YOUR_API_KEY',
+  		'from'=>'YOUR_FROM_NUMBER'
   		)
   	);
